@@ -1,3 +1,21 @@
+> git commit rules:
+
+| action   | commit form                                    | example                                   |
+| -------- | ---------------------------------------------- | ----------------------------------------- |
+| hotfix   | hotfix/{branch short hash}: {your commit text} | hotfix/7d156e3: user profile view issues. |
+| fix      | fix: {your commit text}                        | fix: radio toggle effect.                 |
+| update   | update: {your commit text}                     | update: profile files.                    |
+| features | feat: {your commit text}                       | feat: seller dashboards.                  |
+
+> files naming:
+
+```
+P{name} - primary. (like a primary button > PButton).
+S{name} - secondary. (like a secondary button > SButton).
+T{name} - tertiary. (like a tertiary button > TButton).
+ect... (quaternary, quinary, senary, septenary, octonary, nonary, and denary).
+```
+
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
