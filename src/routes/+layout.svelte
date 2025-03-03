@@ -6,10 +6,12 @@
   let { children } = $props();
 </script>
 
-<Header />
+<div class="max-w-[400px] w-full xl:max-h-[704px] max-h-[calc(100vh-32px)] h-full mx-auto xl:overflow-hidden overflow-y-scroll">
+  <Header />
 
-<main class="overflow-y-auto pb-20">
-  {@render children()}
-</main>
+  <main class="overflow-y-auto pb-20">
+    {@render children()}
+  </main>
 
-<Footer />
+  <Footer />
+</div>
